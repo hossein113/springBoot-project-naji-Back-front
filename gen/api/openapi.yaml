@@ -1,0 +1,21 @@
+openapi: 3.0.1
+info:
+  description: API description in Markdown.
+  title: Sample API
+  version: 1.0.0
+servers:
+  - url: https://api.example.com/
+paths:
+  /users:
+    get:
+      description: Optional extended description in Markdown.
+      responses:
+        "200":
+          content: { }
+          description: OK
+      summary: Returns a list of users.
+      x-accepts: application/json
+components:
+  schemas: { }
+x-original-swagger-version: "2.0"
+
